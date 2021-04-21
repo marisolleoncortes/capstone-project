@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+$primarycolor: #293E31;
+$secondarycolor: #FE8340;
+
+body {
+  color: #F9F2EA;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: $primarycolor;
+}
+
+h2 {
+  color: #fff;
+}
+
+ul.main-nav {
+color: red;
+}
+
+li.manin-nav {
+  color: red;
+}
+
+li {
+  color: red;
+}
+
+a { color: inherit; } 
+
+p.home-page {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 58px;
+  margin-top: 58px;
+}
+
+div.card.mb-3.box {
+  background-color: #ffff;
+  text-align: center;
+  border: none;
+  margin: 10px 20px 10px 20px;
+}
+
+p {
+  color: $primarycolor;
+}
+
+p.box-text {
+  margin: 10px 20px 10px 20px;
+}
+
+div.col-12 {
+  margin: 10px 20px 10px 20px;
+}
+
+h4 {
+  color: $primarycolor;
+  margin-top: 20px;
+}
+
+div#gatsby-focus-wrapper {
+  background-color: #F9F2EA;
+}
+
+img {
+  width: 300px;
+}
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+img.img-fluid {
+  width: 1224px;
+  height: 751px;
+  object-fit: cover;
+  object-position: 100% 100%;
+  
+}
+
+img.img-about {
+      width: 1000px;
+}
+
+div.col-7 h2 {
+  text-align: left;
+}
+
+div.col-7 {
+  padding-top: 5px;
+}
+
+img.img-product {
+ text-align: center;
+}
+
+button.btn.btn-lg.btn-primary {
+  background: #FE8340;
+  border-color: #FE8340;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #FE8340;
+}
+
+
+button.btn.btn-lg.btn-secondary {
+  background: #FE8340;
+  border-color: #FE8340;
+  text-decoration: none;
+  width: 300px;
+  margin-top: 10px;
+}
+
+button.btn-lg.btn-danger {
+  background-color: $secondarycolor;
+  border-color: $secondarycolor;
+  font-size: 17px;
+  width: 211px;
+}
+
+a.call-to-action {
+  color: $primarycolor;
+  text-decoration: underline;
+}
+
+p.card-text {
+  margin-bottom: 5px;
+}
+
+p.product-price {
+  margin-bottom: 5px;
+  color: #293E31;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+div.card-body {
+
+}
+
+div.carousel-caption h3 {
+  font-size: 7.00rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+div.carousel-caption p {
+  font-size: 2.00rem;
+  text-align: left;
+}
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+header {
+  background-color: #293E31;
+}
+
+
+
+.main-nav link {
+  color: #ffff;
+}
+
+.main-nav {
+    text-align: center;
+    padding: 0px;
+    font-size: 18px;  
+    color: #ffff;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    color: #FFFF;
+    margin: 10px;
+    padding: 0px;
+}
+
+header .main-nav {
+    color: #ffff;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+header .main-nav li {
+    font-weight: bold;
+    color: #ffff;
+}
+
+.footer {
+    padding: 0px 0px 0px 0px;
+}
+
+.social-media {
+    padding: 10px 0px 0px 0px;
+}
+
+li {
+    padding: 3px 0px 0px 0px;
+}
+
+.home-image {
+
+}
+  
+  
+  
+
+
+  img {
+    width: 300px;
+  }
+
+  .cart-button {
+    font-size: 14px;
+  }
+
+  //about us
+  div.col-6.about-us {
+    background-color: $primarycolor;
+  }

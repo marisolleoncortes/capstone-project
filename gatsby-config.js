@@ -10,6 +10,7 @@ module.exports = {
         spaceId: "4yl7w504wmhg",
       },
     },
+    
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-plugin-google-analytics",
