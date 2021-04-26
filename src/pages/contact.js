@@ -28,19 +28,21 @@ export default function Contact() {
         <div className="row">
             <div className="col-sm-4">
                 <label for="email">Your Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="Your Phone Numbe" required className="form-control" />
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required className="form-control" />
             </div>
         </div>
 
         <div className="row">
-            <div className="col-sm-4">
-                <label for="message">Your Message</label>
-                <text name="message" id="message" className="form-control" placeholder="Your message...." required />
-            </div>
-        </div>
+               <div className="col-sm-4">
+                   <label for="message">Your Message</label>
+                   <textarea name="message" id="message" className="form-control" placeholder="Your Message" required>
+                       </textarea>
+               </div>
+           </div> 
+            
 
             
-            <button className="btn btn-lg btn-primary">Contact Us</button>
+            <button type="submit" className="btn btn-lg btn-primary">Contact Us</button>
 
             </form>
 
