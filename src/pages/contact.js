@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="row">
             <div className="col-sm-4">
             <label for="fullname">Your Email</label>
-                <input type="text" id="email" name="fullname" placeholder="Your Email" required className="form-control" />
+                <input type="text" id="email" name="email" placeholder="Your Email" required className="form-control" />
             </div>
         </div>
 
