@@ -9,7 +9,9 @@ export default function Contact() {
 <SEO title="Contact Us"></SEO>
             <h1>Contact Us</h1>
 
-        <form name="contact" method="POST" data-netlify="true" action="pages/thankyou">
+        <form name="contact" method="POST" data-netlify="true" action="/thankyou">
+
+            <input type="hidden" name="form-name" value="contact" />
 
         <div className="row">
             <div className="col-sm-4">
