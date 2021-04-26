@@ -2,6 +2,7 @@ import React from "react"
 import Default from "../layouts/default.js"
 import { Link } from "gatsby"
 import AddToCart from "../components/add-to-cart.js"
+import SEO from "../components/seo.js"
 
 export default function ProductPage( {pageContext}) {
 
@@ -9,6 +10,8 @@ export default function ProductPage( {pageContext}) {
     
     return (
         <Default>
+
+            <SEO title={product.name} description={'Order our ${product.name} at Stay Fresh!'}></SEO>
             <div className="row">
                 <div className="col-sm-6">
                 <h3>{product.name}</h3>

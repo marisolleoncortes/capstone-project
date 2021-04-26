@@ -1,10 +1,13 @@
 import React from "react"
 import Default from "../layouts/default.js"
 import FullWidth from "../layouts/fullwidth.js"
+import SEO from "../components/seo.js"
 
 export default function About() {
     return (
         <FullWidth>
+
+            <SEO title="About Stay Fresh"></SEO>
  
     <img src="img/vegetables-about.jpg" className="img-about" alt="First Image" />
    

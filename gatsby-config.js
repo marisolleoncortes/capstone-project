@@ -1,6 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: "Stay Fresh",
+    siteUrl: "https://nifty-leakey-b9b73e.netlify.app",
+    titleTemplate: "%s - Stay Fresh",
+    description:
+      "Need fruits & vegetables? We deliver to your doorstep!",
+    url: "https://nifty-leakey-b9b73e.netlify.app", // No trailing slash allowed!
+    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@stayfresh",
   },
   plugins: [
     {

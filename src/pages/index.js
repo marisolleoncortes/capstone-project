@@ -4,8 +4,9 @@ import FullWidth from "../layouts/fullwidth.js"
 import "./index.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { graphql, Link } from "gatsby"
+//import Helmet from "react-helmet"
+import SEO from "../components/seo.js"
 import { library } from '@fortawesome/fontawesome-svg-core'
-//import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faMobile, faShoppingCart, faDoorOpen, faCarrot } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -15,6 +16,8 @@ library.add(faCheckSquare, faCoffee, faMobile, faShoppingCart, faDoorOpen, faCar
 export default function Index() {
   return (
     <FullWidth>
+
+   <SEO>"Need fruits & vegetables? We deliver to your doorstep!"</SEO>
 
       <Carousel>
         <Carousel.Item>
