@@ -10,9 +10,9 @@ import AddToCart from "../components/add-to-cart.js"
 export default function ProductItemPreview({product}) {
     return (
 
-        <div className="row menu-item-preview">
+       
            
-            <div className="col-md-3">
+            <div className="col-sm-3">
                 <div className="card mb-4 box-shadow">
                 <img className="card-img-top" src={product.image.file.url} alt={product.name} data-holder-rendered="true"/>
                 <div className="card-body">
@@ -28,7 +28,7 @@ export default function ProductItemPreview({product}) {
                 </div>
                  </div>
                  
-        </div>
+        
     
         )
     }

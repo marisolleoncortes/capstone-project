@@ -1,25 +1,31 @@
 import * as React from "react"
 import { Carousel } from 'react-bootstrap';
-import Default from "../layouts/default.js"
+import FullWidth from "../layouts/fullwidth.js"
 import "./index.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { graphql, Link } from "gatsby"
+import { library } from '@fortawesome/fontawesome-svg-core'
+//import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faMobile, faShoppingCart, faDoorOpen, faCarrot } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+library.add(faCheckSquare, faCoffee, faMobile, faShoppingCart, faDoorOpen, faCarrot)
 
 
 export default function Index() {
   return (
-    <Default>
+    <FullWidth>
 
       <Carousel>
         <Carousel.Item>
-          <img src="img/slide01.jpg" className="img-fluid" alt="First Image" />
+          <img src="img/vegetables.jpg" className="img-fluid" alt="First Image" />
          <Carousel.Caption>
             [Fix Image Size & Background]<h3>Fresh Produce Delivery</h3>
             <button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button>[Fix button align left]
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="img/slide02.jpg" className="img-fluid" alt="First Image" />
+          <img src="img/fruitsvegetables.jpg" className="img-fluid" alt="First Image" />
          <Carousel.Caption>
          [Fix Image Size & Background<h3>Fresh Produce Delivery</h3>
             <button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button>[Fix button align left]
@@ -40,23 +46,23 @@ export default function Index() {
   <div class="row">
     <div class="col-4">
     <div className="card mb-3 box">
-    [Mobile Icon]
-      <h4>ORDER ON THE GO</h4>
+   <p className="mobile-phone"> <FontAwesomeIcon icon="mobile" /> </p>
+      <h4 className="box-title">ORDER ON THE GO</h4>
       <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
     </div>
     </div>
     <div class="col-4">
     <div className="card mb-3 box">
-    [Delivery Icon]
-      <h4>DOORSTEP DELIVERY</h4>
+    <p className="door"> <FontAwesomeIcon icon="door-open" /> </p>
+      <h4 className="box-title">DOORSTEP DELIVERY</h4>
       <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
     </div>
     
     </div>
     <div class="col-4">
     <div className="card mb-3 box">
-    [Delivery Icon]
-      <h4>SAME DAY DELIVERY</h4>
+    <p className="carrot"> <FontAwesomeIcon icon="carrot" /> </p>
+      <h4 className="box-title">SAME DAY DELIVERY</h4>
       <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
     </div>
     
@@ -64,7 +70,7 @@ export default function Index() {
 </div>
 </div>
      
-    </Default>
+    </FullWidth>
   
     
   )

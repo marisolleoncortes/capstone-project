@@ -8,6 +8,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+header {
+  background-color: #293E31;
+}
+
 h1 {
   color: $primarycolor;
 }
@@ -16,6 +20,7 @@ h2 {
   color: #fff;
 }
 
+//header
 ul.main-nav {
 color: red;
 }
@@ -28,7 +33,15 @@ li {
   color: red;
 }
 
-a { color: inherit; } 
+li a {
+  color: $secondarycolor;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: $secondarycolor;
+  text-decoration: underline;
+}
 
 p.home-page {
   text-align: center;
@@ -37,6 +50,11 @@ p.home-page {
   margin-top: 58px;
 }
 
+p {
+  color: $primarycolor;
+}
+
+//home page boxes
 div.card.mb-3.box {
   background-color: #ffff;
   text-align: center;
@@ -44,21 +62,18 @@ div.card.mb-3.box {
   margin: 10px 20px 10px 20px;
 }
 
-p {
-  color: $primarycolor;
+p.box-text {
+  margin: 5px 20px 63px 20px;
 }
 
-p.box-text {
-  margin: 10px 20px 10px 20px;
+h4.box-title {
+  color: $primarycolor;
+  margin-top: 20px;
 }
+//
 
 div.col-12 {
   margin: 10px 20px 10px 20px;
-}
-
-h4 {
-  color: $primarycolor;
-  margin-top: 20px;
 }
 
 div#gatsby-focus-wrapper {
@@ -69,22 +84,23 @@ img {
   width: 300px;
 }
 
+
+
 .carousel-item .img-fluid {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
 }
 
-img.img-fluid {
-  width: 1224px;
-  height: 751px;
+.img-fluid {
   object-fit: cover;
   object-position: 100% 100%;
-  
+  height: 300px
+}
+.img.img-fluid {
+  height: 200px;
 }
 
-img.img-about {
-      width: 1000px;
-}
 
 div.col-7 h2 {
   text-align: left;
@@ -105,7 +121,7 @@ button.btn.btn-lg.btn-primary {
 }
 
 footer {
-  background-color: #FE8340;
+  background-color: $primarycolor;
 }
 
 
@@ -159,11 +175,10 @@ div.carousel-caption p {
 .carousel-item .img-fluid {
   width:100%;
   height:100%;
+  opacity: 1;
 }
 
-header {
-  background-color: #293E31;
-}
+
 
 
 
@@ -212,10 +227,40 @@ li {
 .home-image {
 
 }
-  
-  
-  
 
+//fontawesome
+  
+.cart {
+  color: $secondarycolor;
+  font-size: 27px;
+}
+
+.svg-inline--fa.fa-w-10 {
+  color: $secondarycolor;
+  font-size: 100px;
+}
+ 
+p.mobile-phone {
+  margin-top: 60px;
+}
+
+p.door {
+  margin-top: 60px;
+}
+
+.svg-inline--fa.fa-w-20 {
+  color: $secondarycolor;
+  font-size: 100px;
+}
+
+.svg-inline--fa.fa-carrot.fa-w-16 {
+  color: $secondarycolor;
+  font-size: 100px;
+}
+
+p.carrot {
+  margin-top: 60px;
+}
 
   img {
     width: 300px;
@@ -227,5 +272,19 @@ li {
 
   //about us
   div.col-6.about-us {
-    background-color: $primarycolor;
+    background-color: $secondarycolor;
+    margin-bottom: -16px;
   }
+
+  img.img-about {
+    width: 100%;
+}
+
+p.about {
+  padding: 10px 40px 120px 40px;
+}
+
+h1.about {
+  padding: 120px 40px 20px 40px;
+
+}
