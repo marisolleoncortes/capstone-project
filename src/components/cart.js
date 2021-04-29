@@ -6,7 +6,7 @@ export default function Cart() {
 
     return (
         <>
-            <h3>Your Cart</h3>
+            <h4>Your Cart</h4>
             <div className="row">
                 <div className="col-sm-8">
                     <table className="table">

@@ -9,8 +9,7 @@ export default function About() {
 
             <SEO title="About Stay Fresh"></SEO>
  
-    <img src="img/vegetables-about.jpg" className="img-about" alt="First Image" />
-   
+    <p><img src="img/vegetables-about.jpg" className="img-about" alt="Fresh Vegetables" /></p>
 
            
   <div class="row">
@@ -23,6 +22,7 @@ export default function About() {
             </div>
 
            <div class="col-6 about-us">
+           <img src="img/produce-logo.png" className="logo-produce" alt="Produce" />
                
 
             </div>

@@ -2,6 +2,7 @@ import React from "react"
 import MainNav from "../components/mainnav.js"
 import 'bootstrap/dist/css/bootstrap.css';
 import { CartContextProvider } from "../../shopping.js"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Default({children}) {
     return (
@@ -10,15 +11,14 @@ export default function Default({children}) {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-sm-12">
-                        <h2>Stay Fresh [logo]</h2>
+                <div class="col-4" className="logo">
+                    <img src="img/stay-fresh.png" className="logo" alt="Stay Fresh" />
                     </div>
-                    <div className="col-sm-12">
+                    <div className="col-sm-8" className="header">
                         <MainNav></MainNav>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <hr></hr>
         </header>
 
         <div className="container">
@@ -34,10 +34,11 @@ export default function Default({children}) {
                         <small>&copy; 2021</small>
                     </div>
             <div className="col-sm-8">
-                <MainNav></MainNav>
+                <MainNav className="footer"></MainNav>
             </div>
             <div className="col-sm-2">
-                [social icons]
+            
+            
             </div>
                 </div>
             </div>

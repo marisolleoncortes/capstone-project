@@ -21,40 +21,60 @@ export default function Index() {
 
       <Carousel>
         <Carousel.Item>
-          <img src="img/vegetables.jpg" className="img-fluid" alt="First Image" />
+          <div class="content">
+            <img src="img/vegetables.jpg" className="img-fluid" alt="Vegetables" />
+            </div>
          <Carousel.Caption>
-            [Fix Image Size & Background]<h3>Fresh Produce Delivery</h3>
-            <button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button>[Fix button align left]
+         <div class="container delivery">
+  <div class="row">
+    <div class="col-md-8">
+           <h3>Fresh Produce Delivery</h3>
+            <p><button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button></p>
+            </div>
+            </div>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="img/fruitsvegetables.jpg" className="img-fluid" alt="First Image" />
+          <div class="content">
+            <img src="img/organicvegetables.jpg" className="img-fluid" alt="Organic Vegetables" />
+            </div>
          <Carousel.Caption>
-         [Fix Image Size & Background<h3>Fresh Produce Delivery</h3>
-            <button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button>[Fix button align left]
+         <div class="container delivery">
+  <div class="row">
+    <div class="col-md-8">
+         <h3>Fresh Produce Delivery</h3>
+         <p><button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button></p>
+         </div>
+            </div>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         
       </Carousel>
 
-      <div class="container">
+      <div class="container delivery">
   <div class="row">
-    <div class="col-12">
-    <p className="home-page">Delivered Fresh to Your Doorstep</p>
-    </div>
+    <div class="col-md-8">
+    <p className="home-page">Delivered Fresh to Your Doorstep</p> 
+      </div>
+    <div class="col-2">
+    <p><img src="img/delivery-truck.png" class="animate__animated animate__bounce" className="delivery" alt="Produce Delivery" /></p>
+    
   </div>
+    </div>
 </div>
 
       <div class="container">
   <div class="row">
-    <div class="col-4">
+    <div class="col-md-4">
     <div className="card mb-3 box">
    <p className="mobile-phone"> <FontAwesomeIcon icon="mobile" /> </p>
       <h4 className="box-title">ORDER ON THE GO</h4>
       <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
     </div>
     </div>
-    <div class="col-4">
+    <div class="col-md-4">
     <div className="card mb-3 box">
     <p className="door"> <FontAwesomeIcon icon="door-open" /> </p>
       <h4 className="box-title">DOORSTEP DELIVERY</h4>
@@ -62,7 +82,7 @@ export default function Index() {
     </div>
     
     </div>
-    <div class="col-4">
+    <div class="col-md-4">
     <div className="card mb-3 box">
     <p className="carrot"> <FontAwesomeIcon icon="carrot" /> </p>
       <h4 className="box-title">SAME DAY DELIVERY</h4>

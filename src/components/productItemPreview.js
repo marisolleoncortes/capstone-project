@@ -22,7 +22,7 @@ export default function ProductItemPreview({product}) {
                 <p><Link to={"/product/" + product.slug} className="call-to-action">More Info</Link></p>
                  
                 
-            <AddToCart className="cart-button" item={ {sku: product.slug, price: product.price, name: product.name} }></AddToCart>
+            <p><AddToCart className="cart-button" item={ {sku: product.slug, price: product.price, name: product.name} }></AddToCart></p>
                
                 </div>
                 </div>

@@ -18,7 +18,7 @@ export default function CheckoutForm() {
 
     return (
         <>
-            <h2>Your Details</h2>
+            <h4>Your Details</h4>
 
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>

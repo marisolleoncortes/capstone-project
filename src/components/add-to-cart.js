@@ -5,7 +5,7 @@ export default function AddToCart({item}) {
     const { addProduct } = useContext(CartContext)
     return (
         <>
-            <button className="btn btn-lg btn-danger" onClick={ () => addProduct(item) }>Add to Cart</button>
+            <button className="btn btn-lg btn-danger btn-block" onClick={ () => addProduct(item) }>Add to Cart</button>
         </>
     )
 }
