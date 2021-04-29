@@ -380,4 +380,61 @@ h3.product {
 
 @media screen and (max-width: 480px) {
 
+  header {
+    height: 169px;
+  }
+
+  img.logo {
+    width: 80px;
+  }
+
+  ul.main-nav {
+    width: 10px;
+    font-size: 10px; 
+  }
+
+  ul.main-nav a hover {
+    color: $secondarycolor
+  }
+
+  li a {
+    background-color: $secondarycolor;
+  }
+
+  li {
+    margin: 2px;
+  }
+
+  p.home-page {
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  img.delivery {
+    padding: 10px 10px 10px 10px;
+  }
+
+//about
+img.logo-produce {
+    width: 110px;
+    margin-top: -34px;
+}
+
+p {
+  font-size: 10px;
+}
+
+h1.about {
+  padding: 0px 0px 0px 0px;
+  font-size: 29px;
+  text-align: center;
+}
+
+p.about {
+  padding: 0px 10px 0px 20px;
+}
+
+
+
+
 }

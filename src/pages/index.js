@@ -27,7 +27,7 @@ export default function Index() {
          <Carousel.Caption>
          <div class="container delivery">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-6">
            <h3>Fresh Produce Delivery</h3>
             <p><button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button></p>
             </div>
@@ -42,7 +42,7 @@ export default function Index() {
          <Carousel.Caption>
          <div class="container delivery">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-6">
          <h3>Fresh Produce Delivery</h3>
          <p><button className="btn btn-lg btn-primary"><Link to="/orderonline">Order Online</Link></button></p>
          </div>

@@ -26,7 +26,7 @@ export default function Default({children}) {
         </div>
         
 
-        <footer>
+         <footer>
             <hr></hr>
             <div className="container">
                 <div className="row">
