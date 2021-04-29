@@ -16,11 +16,11 @@ export default function ProductPage( {pageContext}) {
            
            <div class="container-product">
             <div className="row">
-            <div class="product" className="col-sm-6">
+            <div class="product" className="col-sm-6 col-md-6">
             <img src={product.image.file.url} />
             </div>
                 
-                <div className="col-sm-4">
+                <div className="col-sm-6 col-md-4">
                 <h3 className="product">{product.name}</h3>
                 <p>
                     <Link to="/">Return to Home</Link>
