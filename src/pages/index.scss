@@ -283,6 +283,7 @@ li {
 .svg-inline--fa.fa-w-10 {
   color: $secondarycolor;
   font-size: 100px;
+  max-width: 100px;
 }
  
 p.mobile-phone {
@@ -296,11 +297,14 @@ p.door {
 .svg-inline--fa.fa-w-20 {
   color: $secondarycolor;
   font-size: 100px;
+  max-width: 100px;
+  
 }
 
 .svg-inline--fa.fa-carrot.fa-w-16 {
   color: $secondarycolor;
   font-size: 100px;
+  max-width: 100px;
 }
 
 p.carrot {

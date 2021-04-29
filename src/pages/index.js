@@ -9,6 +9,7 @@ import SEO from "../components/seo.js"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCheckSquare, faCoffee, faMobile, faShoppingCart, faDoorOpen, faCarrot } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ReactDOM from 'react-dom'
 
 library.add(faCheckSquare, faCoffee, faMobile, faShoppingCart, faDoorOpen, faCarrot)
 
