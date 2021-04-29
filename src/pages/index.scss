@@ -223,6 +223,10 @@ img.img-fluid {
     color: #ffff;
 }
 
+li a:link {
+  text-decoration: none;
+  color: $secondarycolor;
+}
 
 .main-nav li {
     display: inline-block;
@@ -312,7 +316,7 @@ p.carrot {
   //about us
   div.col-6.about-us {
     background-color: $secondarycolor;
-    margin: -16px 0px -16px 0px;
+    margin: 0px 0px -16px 0px;
     text-align: center;
     padding-top: 122px;
   }

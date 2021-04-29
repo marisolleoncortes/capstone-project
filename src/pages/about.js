@@ -9,7 +9,7 @@ export default function About() {
 
             <SEO title="About Stay Fresh"></SEO>
  
-    <p><img src="img/vegetables-about.jpg" className="img-about" alt="Fresh Vegetables" /></p>
+    <div><img src="img/vegetables-about.jpg" className="img-about" alt="Fresh Vegetables" /></div>
 
            
   <div class="row">

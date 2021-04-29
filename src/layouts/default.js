@@ -3,6 +3,7 @@ import MainNav from "../components/mainnav.js"
 import 'bootstrap/dist/css/bootstrap.css';
 import { CartContextProvider } from "../../shopping.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Img from "gatsby-image"
 
 export default function Default({children}) {
     return (

@@ -59,7 +59,7 @@ export default function Index() {
     <p className="home-page">Delivered Fresh to Your Doorstep</p> 
       </div>
     <div class="col-2">
-    <p><img src="img/delivery-truck.png" class="animate__animated animate__bounce" className="delivery" alt="Produce Delivery" /></p>
+    <p><img src="img/delivery-truck.png" className="delivery" alt="Produce Delivery" /></p>
     
   </div>
     </div>
