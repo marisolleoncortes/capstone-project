@@ -135,6 +135,7 @@ button.btn.btn-lg.btn-primary {
   background: #FE8340;
   border-color: #FE8340;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 button.btn.btn-lg.btn-primary a {
@@ -252,11 +253,13 @@ footer {
 }
 
 .footer {
-    padding-top: 20px;
+  width: 100%;
+  height: 100px;
+    padding-top: 40px;
 }
 
 .social-media {
-        padding-top: 24px;
+        padding-top: 30px;
 }
 
 small {
@@ -320,7 +323,7 @@ p.carrot {
   //about us
   div.col-6.about-us {
     background-color: $secondarycolor;
-    margin: -16px 0px -16px 0px;
+    margin: -16px 0px 0px 0px;
     text-align: center;
     padding-top: 122px;
   }
@@ -390,17 +393,43 @@ h3.product {
 @media screen and (max-width: 480px) {
 
 
-  img.logo {
-    width: 80px;
+.footer-widgets {
+  display: none;
+}
+
+  header {
+    height: 120px;
   }
 
-  ul.main-nav {
-    font-size: 10px; 
-    margin-top: -155px;
+  footer {
+    height: 120px;
+  }
+
+  header.main-nav li {
+
+  }
+
+  .main-nav li {
+    margin: 5px;
+  }
+
+  img.logo {
+    width: 108px;
+    margin: 20px 0px 26px 28px;
+  }
+
+  ul.main-nav header {
+    font-size: 13px;
+    margin-top: -10px;
   }
 
   ul.main-nav a hover {
     color: $secondarycolor
+  }
+
+  ul.main-nav footer {
+    font-size: 13px;
+    margin-top: 20px;
   }
 
   div.carousel-caption h3 {

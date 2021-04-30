@@ -32,14 +32,14 @@ export default function FullWidth({children}) {
         
 
         <footer>
-            <hr></hr>
+            
             <div className="container">
                 <div className="row">
                     <div className="colo-sm-2">
                         <small>&copy; 2021</small>
                     </div>
             <div className="col-sm-8">
-                <MainNav className="footer"></MainNav>
+                <MainNav></MainNav>
             </div>
             <div className="col-sm-2">
             

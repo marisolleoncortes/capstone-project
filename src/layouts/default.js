@@ -30,14 +30,14 @@ export default function Default({children}) {
         
 
          <footer>
-            <hr></hr>
+            
             <div className="container">
                 <div className="row">
                     <div className="colo-md-2">
                         <small>&copy; 2021</small>
                     </div>
             <div className="col-md-8">
-                <MainNav className="footer"></MainNav>
+                <MainNav></MainNav>
             </div>
             <div className="col-md-2">
             
