@@ -320,7 +320,7 @@ p.carrot {
   //about us
   div.col-6.about-us {
     background-color: $secondarycolor;
-    margin: 0px 0px -16px 0px;
+    margin: -16px 0px -16px 0px;
     text-align: center;
     padding-top: 122px;
   }
@@ -341,6 +341,7 @@ h1.about {
 
 img.logo-produce {
   width: 250px;
+  max-width: 250px;
 }
 
 //contact
@@ -388,29 +389,22 @@ h3.product {
 
 @media screen and (max-width: 480px) {
 
-  header {
-    height: 169px;
-  }
 
   img.logo {
     width: 80px;
   }
 
   ul.main-nav {
-    width: 10px;
     font-size: 10px; 
+    margin-top: -155px;
   }
 
   ul.main-nav a hover {
     color: $secondarycolor
   }
 
-  li a {
-    background-color: $secondarycolor;
-  }
-
-  li {
-    margin: 2px;
+  div.carousel-caption h3 {
+    font-size: 24px;
   }
 
   p.home-page {
@@ -442,7 +436,17 @@ p.about {
   padding: 0px 10px 0px 20px;
 }
 
+div.carousel-caption p {
+  font-size: 3rem;
+  text-align: left;
+}
 
+img.delivery {
+margin-left: 112px;
+}
 
-
+img {
+  width: 300px;
+  padding-right: 30px;
+}
 }

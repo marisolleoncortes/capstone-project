@@ -9,11 +9,11 @@ export default function About() {
 
             <SEO title="About Stay Fresh"></SEO>
  
-    <div><img src="img/vegetables-about.jpg" className="img-about" alt="Fresh Vegetables" /></div>
+    <p><img src="img/vegetables-about.jpg" className="img-about" alt="Fresh Vegetables" /></p>
 
            
   <div class="row">
-    <div class="col-sm-12 col-md-6">
+    <div class="col-6">
             <h1 className="about">Our Story</h1>
 
             <p className="about">Welcome to Stay Fresh! We deliver fruits & vegetables to your doorstep from local farms or makets of your choosing.
@@ -21,7 +21,7 @@ export default function About() {
             </p>
             </div>
 
-           <div class="col-sm-12 col-md-6 about-us">
+           <div class="col-6 about-us">
            <img src="img/produce-logo.png" className="logo-produce" alt="Produce" />
                
 

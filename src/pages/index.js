@@ -72,14 +72,14 @@ export default function Index() {
     <div className="card mb-3 box">
    <p className="mobile-phone"> <FontAwesomeIcon icon="mobile" /> </p>
       <h4 className="box-title">ORDER ON THE GO</h4>
-      <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+      <p className="box-text">Need your fruits & vegetables today? Download our app and you will have your produce in no time.</p>
     </div>
     </div>
     <div class="col-sm-12 col-md-4">
     <div className="card mb-3 box">
     <p className="door"> <FontAwesomeIcon icon="door-open" /> </p>
       <h4 className="box-title">DOORSTEP DELIVERY</h4>
-      <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+      <p className="box-text">Delivery to your door is included! Skip your delivery or change frequency to fit your schedule or vacations.</p>
     </div>
     
     </div>
@@ -87,7 +87,7 @@ export default function Index() {
     <div className="card mb-3 box">
     <p className="carrot"> <FontAwesomeIcon icon="carrot" /> </p>
       <h4 className="box-title">SAME DAY DELIVERY</h4>
-      <p className="box-text">I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+      <p className="box-text">No need to wait. You will have your produce delivered the same day to your doorstep. </p>
     </div>
     
     </div>

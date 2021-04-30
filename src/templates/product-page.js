@@ -23,7 +23,7 @@ export default function ProductPage( {pageContext}) {
                 <div className="col-sm-6 col-md-4">
                 <h3 className="product">{product.name}</h3>
                 <p>
-                    <Link to="/">Return to Home</Link>
+                    <Link to="/orderonline">Return to Products</Link>
                 </p>
                 <p>{product.description.description}</p>
 

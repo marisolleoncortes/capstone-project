@@ -3,7 +3,6 @@ import MainNav from "../components/mainnav.js"
 import 'bootstrap/dist/css/bootstrap.css';
 import { CartContextProvider } from "../../shopping.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import ReactDOM from 'react-dom'
 
 
 
@@ -16,10 +15,10 @@ export default function FullWidth({children}) {
 
                     
                     
-                    <div class="col-sm-2 col-md-4" className="logo">
+                    <div class="col-4" className="logo">
                     <img src="img/stay-fresh.png" className="logo" alt="Stay Fresh" />
                     </div>
-                    <div className="col-sm-10 col-md-8" className="header">
+                    <div className="col-sm-8" className="header">
                         <MainNav></MainNav>
                         </div>
                     </div>
